@@ -1,3 +1,5 @@
+const token = require('./token');
+
 const Discord = require('discord.js');
 
 const Bot = require('./bot');
@@ -12,5 +14,5 @@ client.on('message', msg => {
   Bot.handleMessage(msg);
 });
 
-client.login('NjM3OTU4MTk4MzEzMzUzMjM3.Xs2m_g.DNWyDTF0Cda06iUGhJUjfARHHiM');
+client.login(token);
 

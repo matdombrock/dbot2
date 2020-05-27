@@ -1,4 +1,3 @@
-
 const config = require('./config');
 const Commands = require('./commands');
 const Models = require('./tools/models');
