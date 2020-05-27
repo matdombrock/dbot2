@@ -68,9 +68,6 @@ const Bot = {
   },
   _shouldListen: function(msg){
     // This could contain more logic later
-    /* if(msg.channel.type === 'dm'){
-      return true;
-    } */
     if(msg.content.charAt(0)===config.command_prefix || msg.content.charAt(0)===config.help_prefix){
       return true;
     }
